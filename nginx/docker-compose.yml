@@ -2,7 +2,7 @@ version: "3.5"
 services:
   proxy-server:
     build:
-      context: ./nginx-sample
+      context: ./nginx
     ports: 
       - "80:80"
 
