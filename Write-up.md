@@ -15,7 +15,7 @@ Student Number: A0221444R
     1. `docker run -p 3000:8080 -d --name otot-a1-1 node-web-app`
     1. Alternatively, use the `./start.sh` script to start
     1. sudo privillages might be required
-1. Visit the node app at [`localhost:3000`](http://localhost:3000)
+1. Visit the node app at [localhost:3000](http://localhost:3000)
 ![node app running on localhost:3000](./images/A1.1.png)
 ### Removing the node app
 1. Stop the Docker container
@@ -38,7 +38,7 @@ Student Number: A0221444R
     1. `docker run -d -p 8080:80 --name otot-a1-2 nginx-server`
     1. Alternatively, use the `./start.sh` script to start
     1. sudo privillages might be required
-1. Visit the web server at [`localhost:8080`](http://localhost:8080)
+1. Visit the web server at [localhost:8080](http://localhost:8080)
 ![node app running on localhost:8080](./images/A1.2.png)
 
 ### Removing the web server
@@ -58,6 +58,6 @@ Student Number: A0221444R
     1. `docker compose up --build`
     1. sudo privillages might be required
     1. Alternatively, use the `./start.sh` script to start
-    1. Visit the node app at both [`localhost:8080`](http://localhost:8080) and [`localhost:80`](http://localhost:80)
+    1. Visit the node app at both [localhost:8080](http://localhost:8080) and [localhost:80](http://localhost:80)
 ![node app running on localhost:8080](./images/A1.3.2.png)
 ![node app running on localhost:80](./images/A1.3.1.png)
